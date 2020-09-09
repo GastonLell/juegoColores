@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+
+
+}
+
+#colorDisplay{
+    font-size: 50px;
+}
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0px;
+    padding-bottom: 30%;
+    margin: 10px;
+    background-color: violet;
+    border-radius: 25px;
+}
+
+.container{
+    width: 600px;
+    margin: 0px auto;
+}
+
+body{
+    background-color: #232323;
+}
+
+/* MENSAJE */
+#strip{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    line-height: 27px;
+    padding-left: 30%;
+}
+#message{
+    color: red;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+span{
+    text-transform: uppercase;
+}
+#facil, #dificil{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.selected{
+    background-color: violet;
+}
